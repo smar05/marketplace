@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 require __DIR__  . '/vendor/autoload.php';
 
@@ -21,8 +21,8 @@ if($sandbox){
 
 }else{
 
-  $public_key = "";
-  $access_token = "";
+  $public_key = "TEST-8eafd658-e261-4ac6-bf6b-60e3fbb79daa";
+  $access_token = "TEST-7470437773470644-091204-9effd798e7991cceb30d77043db6817b-237162616";
 
 }
 
@@ -57,7 +57,7 @@ Formulario de MercadoPago
 =============================================*/
 
 if(isset($_GET["_x"]) && $_GET["_x"] == md5(base64_decode($_COOKIE["_x"]))){
-  
+
   echo '
   <div style="width:100%; height:100vh; position:fixed; background:url(mp-bg.jpg); background-repeat:no-repeat; background-size:cover">
 
