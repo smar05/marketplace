@@ -164,8 +164,9 @@ Exportamos las credenciales de MERCADO PAGO
 
 export let MercadoPago = {
   //Sandbox
-  public_key: "",
-  access_token: "",
+  public_key: "TEST-8eafd658-e261-4ac6-bf6b-60e3fbb79daa",
+  access_token:
+    "TEST-7470437773470644-091204-9effd798e7991cceb30d77043db6817b-237162616",
 
   //Live
   // public_key: "APP_USR-8cd49018-96f1-4745-8776-708dcb265755",
